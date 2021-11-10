@@ -1,0 +1,18 @@
+
+El objetivo de este juego consiste en colocar cuatro fichas en una
+fila contínua vertical, horizontal o diagonalmente. Se juega sobre
+un tablero de 8x8 casillas que al empezar está vacío.
+
+Ambos jugadores sitúan sus fichas (una por movimiento) en el tablero.
+La regla para colocarlas consiste en que estas siempre "caen hasta abajo".
+Es decir una ficha puede ser colocada bien en la parte inferior de una columna
+o bien sobre otra ficha de alguna otra columna.
+
+La partida termina si una de las siguientes condiciones se cumple:
+
+        -> Uno de los jugadores coloca cuatro o más fichas en una línea contínua
+            vertical, horizontal o diagonalmente. Este jugador gana la partida.
+           
+        -> Todas las casillas del tablero están ocupadas y ningún jugador cumple
+            la condición anterior para ganar. En este caso la partida finaliza en empate.
+            
